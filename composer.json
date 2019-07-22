@@ -1,0 +1,10 @@
+{
+    "name": "placetopay/magento",
+    "description": "Plugin for integrate PlacetoPay with your Magento comerce",
+    "type": "magento2-module",
+    "require": {
+        "dnetix/redirection": "^0.6.1",
+        "php": "~7.1.3||~7.2.0"
+    },
+    "license": "OSL-3.0"
+}
