@@ -27,7 +27,7 @@ El desarrollador debe incluir los siguientes campos en el sitio, para ser enviad
 * Descripción.
 * Dirección IP.
 * Fecha de expiración.
-* Agente de Usuario ([UserAgent][^1]) del navegador
+* Agente de Usuario (UserAgent) del navegador
 
 > Tener en cuenta que cada uno de los campos debe estar compuesto con información
 coherente según el tipo de campo, adicionalmente se debe enviar la información
@@ -35,30 +35,30 @@ codificada según el idioma.
 
 # Requisitos técnicos
  * PHP: ~7.1.3 o ~7.2.0
-  * ext-bcmath
-  * ext-ctype
-  * ext-curl
-  * ext-dom
-  * ext-gd
-  * ext-hash
-  * ext-iconv
-  * ext-intl
-  * ext-mbstring
-  * ext-openssl
-  * ext-pdo_mysql
-  * ext-simplexml
-  * ext-soap
-  * ext-spl
-  * ext-xsl
-  * ext-zip
-  * lib-libxml
+    * ext-bcmath
+    * ext-ctype
+    * ext-curl
+    * ext-dom
+    * ext-gd
+    * ext-hash
+    * ext-iconv
+    * ext-intl
+    * ext-mbstring
+    * ext-openssl
+    * ext-pdo_mysql
+    * ext-simplexml
+    * ext-soap
+    * ext-spl
+    * ext-xsl
+    * ext-zip
+    * lib-libxml
  * Manejador de paquetes Composer: Última versión estable
  * Base de datos (MySQL o MariaDB)
-  * MySQL: 5.7
-  * MariaDB: 10.*
+    * MySQL: 5.7
+    * MariaDB: 10.*
  * Servidores web (Apache o Nginx)
-  * Apache: 2.2 o 2.4 con mod_rewrite y mod_versions
-  * Nginx: 1.*
+    * Apache: 2.2 o 2.4 con mod_rewrite y mod_versions
+    * Nginx: 1.*
 
 # Tarjetas de prueba para realizar transacciones
 
@@ -87,6 +87,3 @@ Al hacer pruebas con una tarjeta de crédito cuyo tipo de respuesta es ​ **APR
 * Documentación para desarrolladores de Magento: https://devdocs.magento.com
 * Repositorio de logos de PlacetoPay: https://dev.placetopay.com/web/logos/
 * PHP Standards Recommendations: https://www.php-fig.org/psr/
-
-
-[^1]: Cuando un usuario accede a una página web, la aplicación generalmente envía una cadena de texto que identifica al agente de usuario ante el servidor. Este texto forma parte de la petición a través de HTTP, llevando como prefijo User-agent: o User-Agent: y generalmente incluye información como el nombre de la aplicación, la versión, el sistema operativo, y el idioma. (Wikipedia)
