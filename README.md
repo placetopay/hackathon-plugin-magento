@@ -6,6 +6,8 @@
 
 Desarrollar un plugin funcional de Magento que permita realizar un pedido, modificar el estado de este y pagar, a través de PlacetoPay.
 
+<iframe width="853" height="480" src="https://www.youtube.com/embed/zlmHH1j3fPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Requisitos generales
 
 ## Imagen Corporativa
@@ -78,7 +80,7 @@ compra:
 
 Al hacer pruebas con una tarjeta de crédito cuyo tipo de respuesta es ​ **APROBADA**​, significa que la transacción elaborada va ser un pago efectuado correctamente; si el tipo de respuesta es ​**PENDIENTE** significa que la transacción tendrá un estado procesamiento permanente por parte del banco o la red financiera y si el tipo de respuesta es ​ **RECHAZADA**​ simula que no hay cupo en la tarjeta.
 
-> **Para todas las franquicias**
+**Para todas las franquicias**
  * Código de verificación (CVV) es: 123
  * Fecha de vencimiento: Seleccione una fecha vigente
 
@@ -87,3 +89,5 @@ Al hacer pruebas con una tarjeta de crédito cuyo tipo de respuesta es ​ **APR
 * Documentación para desarrolladores de Magento: https://devdocs.magento.com
 * Repositorio de logos de PlacetoPay: https://dev.placetopay.com/web/logos/
 * PHP Standards Recommendations: https://www.php-fig.org/psr/
+* Documentación de GIT: https://git-scm.com/docs
+* URL para el consumo de los servicios en pruebas: https://test.placetopay.com/redirection
