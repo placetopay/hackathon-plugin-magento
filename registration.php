@@ -4,4 +4,4 @@
  * See COPYING.txt for license details.
  */
 use \Magento\Framework\Component\ComponentRegistrar;
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'EGM_PlacetoPay', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'PlacetoPay_Magento', __DIR__);
