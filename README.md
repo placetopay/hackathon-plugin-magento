@@ -6,7 +6,9 @@
 
 Desarrollar un plugin funcional de Magento que permita realizar un pedido, modificar el estado de este y pagar, a través de PlacetoPay.
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/zlmHH1j3fPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Puedes ver un ejemplo del flujo del plugin para Magento 1.9 en el siguiente enlace:
+
+https://www.youtube.com/watch?v=zlmHH1j3fPk
 
 # Requisitos generales
 
