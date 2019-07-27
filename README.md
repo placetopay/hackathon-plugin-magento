@@ -87,8 +87,8 @@ Al hacer pruebas con una tarjeta de crédito cuyo tipo de respuesta es ​ **APR
 
 # Credenciales de acceso
 
-Login: 6dd490faf9cb87a9862245da41170ff2
-Trankey: 024h1IlD
+* **Login**: 6dd490faf9cb87a9862245da41170ff2
+* **Trankey**: 024h1IlD
 
 # Recursos
 * Documentación para desarrolladores de PlacetoPay: https://dev.placetopay.com/web/redirection/
