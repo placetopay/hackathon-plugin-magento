@@ -98,3 +98,4 @@ Al hacer pruebas con una tarjeta de crédito cuyo tipo de respuesta es ​ **APR
 * Documentación de GIT: https://git-scm.com/docs
 * URL para el consumo de los servicios en pruebas: https://test.placetopay.com/redirection
 * Cliente para el consumo de los servicios: https://dnetix.co/p2p/client
+* Libreria para autenticación y pago básico con PLaceToPay: https://github.com/dnetix/redirection
