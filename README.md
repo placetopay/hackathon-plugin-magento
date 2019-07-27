@@ -42,7 +42,6 @@ codificada según el idioma.
     * ext-bcmath
     * ext-ctype
     * ext-curl
-    * ext-dom
     * ext-gd
     * ext-hash
     * ext-iconv
@@ -50,7 +49,7 @@ codificada según el idioma.
     * ext-mbstring
     * ext-openssl
     * ext-pdo_mysql
-    * ext-simplexml
+    * ext-xml
     * ext-soap
     * ext-spl
     * ext-xsl
@@ -85,6 +84,11 @@ Al hacer pruebas con una tarjeta de crédito cuyo tipo de respuesta es ​ **APR
 **Para todas las franquicias**
  * Código de verificación (CVV) es: 123
  * Fecha de vencimiento: Seleccione una fecha vigente
+
+# Credenciales de acceso
+
+Login: 6dd490faf9cb87a9862245da41170ff2
+Trankey: 024h1IlD
 
 # Recursos
 * Documentación para desarrolladores de PlacetoPay: https://dev.placetopay.com/web/redirection/
