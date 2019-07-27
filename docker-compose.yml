@@ -1,0 +1,45 @@
+version: '3.2'
+
+services:
+  db:
+    container_name: magento_module_db
+    image: mysql:5.7
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: magento
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+
+  magento:
+    container_name: magento_module
+    depends_on:
+      - db
+    build: .
+    volumes:
+      - type: bind
+        source: .
+        target: /var/www/html/app/code/PlacetoPay/magento-gateway-placetopay
+    env_file:
+      - env
+    ports:
+      - "6969:80"
+    restart: always
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      - PMA_HOST=magento_module_db
+      - PMA_USER=root
+      - PMA_PASSWORD=root
+      - MYSQL_ROOT_PASSWORD=root
+    ports:
+      - 8989:80
+
+volumes:
+  db_data:
+
+  data:
+    driver: "local"
