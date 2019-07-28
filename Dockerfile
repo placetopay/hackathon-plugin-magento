@@ -28,6 +28,13 @@ RUN requirements="libpng12-dev libmcrypt-dev libmcrypt4 libcurl3-dev libfreetype
     && requirementsToRemove="libpng12-dev libmcrypt-dev libcurl3-dev libpng12-dev libfreetype6-dev libjpeg-turbo8-dev" \
     && apt-get purge --auto-remove -y $requirementsToRemove
 
+RUN curl -O https://download.libsodium.org/libsodium/releases/libsodium-1.0.18.tar.gz \
+    && tar xfvz libsodium-1.0.18.tar.gz \
+    && cd libsodium-1.0.18 \
+    && ./configure \
+    && make && make install \
+    && pecl install -f libsodium
+
 RUN apt-get update \
     && apt-get install -y libmcrypt-dev \
     && yes '' | pecl install mcrypt-1.0.1 \
